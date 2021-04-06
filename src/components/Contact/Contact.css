@@ -1,0 +1,7 @@
+.content {
+  min-height: calc(100vh - 371px);
+}
+
+.list-group-item {
+  background-color: rgb(250, 198, 185) !important;
+}

@@ -1,0 +1,17 @@
+h1 {
+  text-align: center
+}
+
+.jumbotron {
+  background: url("../../assets/img/jumbotron-bg.jpg");
+  background-size: cover;
+  color: white;
+  border-radius: 0px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.jumbotron h1 {
+  text-shadow: 0 0 10px #343a40;
+  font-size: 3.5rem;
+}

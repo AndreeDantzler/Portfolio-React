@@ -1,0 +1,12 @@
+.person {
+  font-style: italic;
+  color: green
+}
+
+.details {
+  color: white
+}
+
+.content {
+  min-height: calc(100vh - 371px);
+}

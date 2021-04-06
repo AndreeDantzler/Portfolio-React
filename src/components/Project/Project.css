@@ -1,0 +1,29 @@
+img {
+  float: left;
+  width:  125px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  min-height: 380px;
+  border-radius: 10px !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.card-body {
+background-color: rgb(250, 198, 185);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}

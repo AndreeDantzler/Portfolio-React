@@ -1,0 +1,16 @@
+div {
+  display: flexbox;
+  text-align: center;
+}
+
+.intro {
+color: white
+}
+
+.name{
+color: palevioletred
+}
+
+.content {
+  min-height: calc(100vh - 371px);
+}
