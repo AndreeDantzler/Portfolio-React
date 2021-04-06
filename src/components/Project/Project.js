@@ -162,7 +162,7 @@ function Project() {
           </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/COVID19symptom.PNG"}/>
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Covid19symptom.PNG"}/>
               <Card.Body>
                 <Card.Title>COVID 19 Symptoms Checker</Card.Title>
                 <Card.Text>
