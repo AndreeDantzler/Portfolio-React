@@ -24,9 +24,9 @@ function App() {
       <Header/>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route exact path="/about-me" component={About}/>
-            <Route exact path="/projects" component={Project}/>
-            <Route exact path="/contact" component={Contact}/>
+            <Route path="/about-me" component={About}/>
+            <Route path="/projects" component={Project}/>
+            <Route path="/contact" component={Contact}/>
           </Switch>
       <Footer/>
     </Router>
