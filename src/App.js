@@ -6,7 +6,7 @@ import "./components/About/About.css";
 import "./components/Project/Project.css";
 import "./components/Navigation/Navigation.css";
 import Container from "react-bootstrap/Container";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Project from "./components/Project/Project";
 import About from "./components/About/About";
@@ -19,9 +19,9 @@ import Home from "./components/Home/Home";
 function App() {
   return (
   <Container>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Navigation/>
-      <Header/>
+    <Router basename="/Portfolio-React/">
+      <Navigation/>
+        <Header/>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/about-me" component={About}/>
@@ -29,7 +29,7 @@ function App() {
             <Route exact path="/contact" component={Contact}/>
           </Switch>
       <Footer/>
-    </BrowserRouter>
+    </Router>
   </Container>
   );
 }
