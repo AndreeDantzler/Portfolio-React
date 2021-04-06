@@ -8,7 +8,7 @@ function Project() {
         <Row className="justify-content-center">
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/Eat-Da-Burgers.png"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Eat-Da-Burgers.png"} />
               <Card.Body>
                 <Card.Title>Eat-Da-Burgers</Card.Title>
                 <Card.Text>
@@ -38,7 +38,7 @@ function Project() {
           </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/Employee-directory.png"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Employee-directory.png"} />
               <Card.Body>
                 <Card.Title>Employee Directory</Card.Title>
                 <Card.Text>
@@ -69,7 +69,7 @@ function Project() {
         </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/Note Taker.png"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Note Taker.png"} />
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
                 <Card.Text>
@@ -102,7 +102,7 @@ function Project() {
         <Row className="justify-content-center mt-4">
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/WorkDayPlanner.PNG"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/WorkDayPlanner.PNG"} />
               <Card.Body>
                 <Card.Title>Workday Scheduler</Card.Title>
                 <Card.Text>
@@ -132,7 +132,7 @@ function Project() {
           </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/Weatherdashboard.PNG"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Weatherdashboard.PNG"} />
               <Card.Body>
                 <Card.Title>Weather Dashboard</Card.Title>
                 <Card.Text>
@@ -162,7 +162,7 @@ function Project() {
           </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"/img/COVID19symptom.PNG"}/>
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/COVID19symptom.PNG"}/>
               <Card.Body>
                 <Card.Title>COVID 19 Symptoms Checker</Card.Title>
                 <Card.Text>
