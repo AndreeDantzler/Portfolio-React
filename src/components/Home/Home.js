@@ -1,5 +1,6 @@
 import React from "react";
 import {Button, Row, Col} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 
 function Home () {
@@ -14,7 +15,9 @@ return (
     </Row>
     <Row className="mt-4">
       <Col>
-        <Button href="/projects" variant="outline-primary">View Portoflio</Button>
+        <Link to="/projects">
+          <Button variant="outline-primary">View Portoflio</Button>
+        </Link>
       </Col>
     </Row>
   </Col>

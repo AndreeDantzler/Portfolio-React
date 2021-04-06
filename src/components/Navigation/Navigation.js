@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, Nav, Row, Col} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Navigation () {
  return (
@@ -8,16 +9,16 @@ function Navigation () {
     <Navbar variant="dark" className="justify-content-end">
       <Nav defaultActiveKey="/home">
       <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
+          <Link to="/">Home</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/about-me">About Me</Nav.Link>
+          <Link to="/about-me">About Me</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/projects">Featured Projects</Nav.Link>
+          <Link to="/projects">Featured Projects</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Link to="/contact">Contact</Link>
         </Nav.Item>
     </Nav>
     </Navbar> 
