@@ -69,7 +69,7 @@ function Project() {
         </Col>
           <Col md>
             <Card>
-              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Note Taker.PNG"} />
+              <Card.Img variant="top" src={process.env.PUBLIC_URL+"img/Note Taker.png"} />
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
                 <Card.Text>
